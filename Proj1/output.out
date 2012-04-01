@@ -1,0 +1,350 @@
+ # Clock: 0 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = A - run = 0, burst = 3 , current = 0 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 0 
+ # Clock: 1 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = A - run = 0, burst = 3 , current = 1 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 1 
+ # Clock: 2 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = A - run = 0, burst = 3 , current = 2 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 2 
+ # Clock: 3 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = true 
+    CPU.running.id = * - run = -1, burst = 0 , current = 3 
+    IO.free = false 
+    IO.running.id = A - run = 0, burst = 4 , current = 0 
+ # Clock: 4 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = true 
+    CPU.running.id = * - run = -1, burst = 0 , current = 4 
+    IO.free = false 
+    IO.running.id = A - run = 0, burst = 4 , current = 1 
+ # Clock: 5 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = B - run = 0, burst = 6 , current = 0 
+    IO.free = false 
+    IO.running.id = A - run = 0, burst = 4 , current = 2 
+ # Clock: 6 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = B - run = 0, burst = 6 , current = 1 
+    IO.free = false 
+    IO.running.id = A - run = 0, burst = 4 , current = 3 
+ # Clock: 7 
+    Q1 Size: 1 
+    Q1 = A 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = B - run = 0, burst = 6 , current = 2 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 7 
+ # Clock: 8 
+    Q1 Size: 1 
+    Q1 = A 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = B - run = 0, burst = 6 , current = 3 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 8 
+ # Clock: 9 
+    Q1 Size: 1 
+    Q1 = A 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = B - run = 0, burst = 6 , current = 4 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 9 
+ # Clock: 10 
+    Q1 Size: 1 
+    Q1 = A 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = B - run = 0, burst = 6 , current = 5 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 10 
+ # Clock: 11 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = A - run = 1, burst = 5 , current = 0 
+    IO.free = false 
+    IO.running.id = B - run = 0, burst = 2 , current = 0 
+ # Clock: 12 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = A - run = 1, burst = 5 , current = 1 
+    IO.free = false 
+    IO.running.id = B - run = 0, burst = 2 , current = 1 
+ # Clock: 13 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 1 
+    Q2 = B 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = A - run = 1, burst = 5 , current = 2 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 13 
+ # Clock: 14 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 1 
+    Q2 = B 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = A - run = 1, burst = 5 , current = 3 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 14 
+ # Clock: 15 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 1 
+    Q2 = B 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = A - run = 1, burst = 5 , current = 4 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 15 
+ # Clock: 16 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = B - run = 1, burst = 3 , current = 0 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 16 
+ # Clock: 17 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = B - run = 1, burst = 3 , current = 1 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 17 
+ # Clock: 18 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = B - run = 1, burst = 3 , current = 2 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 18 
+ # Clock: 19 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = true 
+    CPU.running.id = * - run = -1, burst = 0 , current = 19 
+    IO.free = false 
+    IO.running.id = B - run = 1, burst = 1 , current = 0 
+ # Clock: 20 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = B - run = 2, burst = 4 , current = 0 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 20 
+ # Clock: 21 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = B - run = 2, burst = 4 , current = 1 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 21 
+ # Clock: 22 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = B - run = 2, burst = 4 , current = 2 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 22 
+ # Clock: 23 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = false 
+    CPU.running.id = B - run = 2, burst = 4 , current = 3 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 23 
+ # Clock: 24 
+    Q1 Size: 0 
+    Q1 = 
+    Q2 Size: 0 
+    Q2 = 
+    Q3 Size: 0 
+    Q3 = 
+    Q_IO Size: 0 
+    Q_IO = 
+    CPU.free = true 
+    CPU.running.id = * - run = -1, burst = 0 , current = 24 
+    IO.free = true 
+    IO.running.id = * - run = -1, burst = 0 , current = 24 
+
+ CPU Gantt Chart: 
+ AAA**BBBBB|BAAAAABBB*|BBBB*
+
+ IO Gantt Chart: 
+ ***AAAA***|*BB******B|*****
+
+ Additional information per process: 
+ *********************************** 
+ # Process ID: A 
+     Turnaround Time: 16 
+     CPU Wait Time: 4 
+     IO Wait Time: 0 
+
+ # Process ID: B 
+     Turnaround Time: 24 
+     CPU Wait Time: 3 
+     IO Wait Time: 0 
+
+
+ System Information: 
+ ******************* 
+ Average Turnaround Time: 20.00 
+ Total CPU Wait Time: 7 
+ Total IO Wait Time: 0 

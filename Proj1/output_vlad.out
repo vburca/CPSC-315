@@ -1,0 +1,50 @@
+
+ CPU Gantt Chart: 
+ AADDDEEABB|BDDDDDDEEC|CFFFEEEEEB|BCCFFBBBFF|
+ FBBBFFFBBB|FFFBBBBB
+
+ IO Gantt Chart: 
+ **AAADDDDE|*********E|EEC*******|*BB**FF***|
+ ****BBB***|********
+
+ Additional information per process: 
+ *********************************** 
+ # Process ID: A 
+     Turnaround Time: 8 
+     CPU Wait Time: 2 
+     IO Wait Time: 0 
+
+ # Process ID: D 
+     Turnaround Time: 17 
+     CPU Wait Time: 2 
+     IO Wait Time: 0 
+
+ # Process ID: E 
+     Turnaround Time: 29 
+     CPU Wait Time: 12 
+     IO Wait Time: 2 
+
+ # Process ID: C 
+     Turnaround Time: 33 
+     CPU Wait Time: 25 
+     IO Wait Time: 1 
+
+ # Process ID: F 
+     Turnaround Time: 53 
+     CPU Wait Time: 34 
+     IO Wait Time: 0 
+
+ # Process ID: B 
+     Turnaround Time: 58 
+     CPU Wait Time: 33 
+     IO Wait Time: 0 
+
+
+ System Information: 
+ ******************* 
+ Average Turnaround Time: 33.00 
+ Total CPU Wait Time: 108 
+ Total IO Wait Time: 3 
+ CPU Utilization: 100.00% 
+ IO Utilization: 32.76% 
+
